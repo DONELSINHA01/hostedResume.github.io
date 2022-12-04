@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Times, 'Times New Roman', sen-serif;
+    font-weight: bold;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(84, 142, 124);
+}
+
+.container {
+    width: 400px;
+    height: 540px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.box {
+    padding-top: 20px;
+    padding-left: 20px;
+    align-items: flex-start;
+    width: 370px;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+.btn {
+    height: 100%;
+    width: 60px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: inherit;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img {
+    width: 15px;
+    height: 15px;
+}
+
+.input {
+    background-color: rgb(176, 172, 172);
+    padding: 20px 0;
+    margin: 5px 0;
+    height: 30px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.input input {
+    border: 0;
+    border-left: 2px;
+    outline: none;
+}
+
+input {
+    background-color: inherit;
+    border: 0;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.payment {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.payment img {
+    margin-right: 6px;
+}
+
+.payment1 {
+    width: 50%;
+    background-color: #f9c447;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.payment2 {
+    width: 50%;
+    background-color: rgb(237, 130, 130);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.dateCommon {
+    width: 40px;
+    height: fit-content;
+    padding: 5px;
+    background-color: rgb(223, 212, 212);
+    border-radius: 5px;
+    margin-right: 3px;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last>.input {
+    width: 100px;
+}
+
+.last>.input>input {
+    width: 100%;
+}
+
+.tc {
+    display: flex;
+
+}
+
+.tc p {
+    font-size: 10px;
+    margin-left: 10px;
+    color: gray;
+}
